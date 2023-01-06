@@ -1,7 +1,5 @@
 # OpenAI GPT-3 Chatbot
 
-![GitHub Actions Build Status](https://github.com/jakecyr/openai-gpt3-chatbot/actions/workflows/test-application.yml/badge.svg)
-
 
 A simple interface to the OpenAI GPT-3 models with speech
 to text for input and text to speech for the output from OpenAI.
@@ -111,9 +109,3 @@ View the coverage report:
 ```bash
 coverage report --fail-under=90 --include="gpt3_assistant/*"
 ```
-
-## References
-
-[SpeechRecognition library docs](https://pypi.org/project/SpeechRecognition/1.2.3)
-
-[Google Translate Text-to-Speech API (gTTS)](https://gtts.readthedocs.io/en/latest/module.html#)
